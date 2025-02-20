@@ -11360,7 +11360,7 @@ pre {
 }
 
 .navbar .navbar-nav .nav-link {
-  font-size: 13px;
+  /*font-size: 13px;*/
   font-weight: bold;
   margin: 0 10px;
   -webkit-transition: all 0.3s;
@@ -11643,4 +11643,57 @@ pre {
 
 .section.bg-gray {
   background: white;
+}
+
+
+/* new */
+.bgimg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../imgs/bg_home.jpg);  
+}
+
+.btn-primary {
+  color: white !important;
+  background-color: #415e1e !important;
+  border-color: #415e1e !important;
+}
+
+.btn-primary:hover {
+  color: #fff !important;
+  background-color: #ff5c31 !important;
+  border-color: #ff5224 !important;
+}
+
+.navbar .navbar-nav .nav-link.active {
+  color: #415e1e !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ff5224 ;
+}
+
+.text-color{
+  color: #ff5224;
+}
+
+.subtitle{
+  color: white;
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #ff5224;
+  border-color: #ff5224;
+}
+
+.btn-dark:hover {
+  color: #fff;
+  background-color: #415e1e ;
+  border-color: #415e1e ;
+}
+
+.bg-primary {
+  background-color: #415e1ef2 !important;
 }
